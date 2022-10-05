@@ -1,0 +1,44 @@
+body {
+    background-image:url(IMG_5208.jpg);
+    color: aliceblue;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#st {
+    margin:auto;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-left:28%;
+    text-decoration:underline;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    
+}
+
+h1:hover {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+}
+
+img {
+    margin-left: 18%;
+    width: 60%;
+    border : 15px ridge #f5e771;
+    box-shadow:8px 8px 100px 0 rgb(0, 5, 255);
+    -webkit-transition: all 4s;
+    -moz-transition: all 4s;
+    -ms-transition: all 4s;
+    -o-transition: all 4s;
+    transition: all 4s;
+}
+img:hover {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    animation: .5s linear 1s infinite alternate slidein;
+}
